@@ -1,0 +1,9 @@
+{
+  "maxOnScreenEnemies": 30,
+  "events": [
+    { "timeSeconds": 0.7, "meleeCount": 9, "rangedCount": 0 },
+    { "timeSeconds": 10.0, "meleeCount": 9, "rangedCount": 3 },
+    { "timeSeconds": 20.0, "meleeCount": 6, "rangedCount": 6 },
+    { "timeSeconds": 40.0, "meleeCount": 6, "rangedCount": 6 }
+  ]
+}

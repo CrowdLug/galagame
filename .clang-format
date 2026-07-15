@@ -1,0 +1,20 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+ColumnLimit: 120
+
+BreakBeforeBraces: Allman
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortFunctionsOnASingleLine: InlineOnly
+
+PointerAlignment: Left
+DerivePointerAlignment: false
+
+SortIncludes: CaseSensitive
+IncludeBlocks: Regroup
+
+Cpp11BracedListStyle: true
+Standard: c++20
+

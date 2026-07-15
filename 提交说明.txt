@@ -1,0 +1,18 @@
+程序名称：拯救塔菲喵
+构建模式：Release
+开发语言：C++20
+开发框架：Qt 6 Widgets / Qt Multimedia
+构建系统：CMake
+
+运行方式：
+1. 双击 run_game.bat；或
+2. 直接运行 NewGame.exe。
+
+源码位置：
+- src：全部 .cpp 源文件
+- include：全部 .h 头文件
+- data：武器、敌人、关卡 JSON 配置
+- assets：游戏运行所需图片、动图和音频
+
+重新构建：
+在已安装 Qt 6.11.0 MinGW 64-bit、MinGW 和 CMake 的环境中运行 build_mingw_release.bat。

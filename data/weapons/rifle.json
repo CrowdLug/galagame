@@ -1,0 +1,10 @@
+{
+  "name": "Rifle",
+  "fireRate": 9.6,
+  "damage": 17,
+  "bulletSpeed": 980.0,
+  "spreadAngle": 2.0,
+  "recoil": 0.06,
+  "ammoCost": 1,
+  "pelletsPerShot": 1
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Shotgun",
+  "fireRate": 1.35,
+  "damage": 12,
+  "bulletSpeed": 760.0,
+  "spreadAngle": 17.0,
+  "recoil": 0.30,
+  "ammoCost": 3,
+  "pelletsPerShot": 7
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Pistol",
+  "fireRate": 4.2,
+  "damage": 24,
+  "bulletSpeed": 860.0,
+  "spreadAngle": 0.8,
+  "recoil": 0.04,
+  "ammoCost": 1,
+  "pelletsPerShot": 1
+}

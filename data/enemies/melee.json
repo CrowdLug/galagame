@@ -1,0 +1,10 @@
+{
+  "detectRadius": 2500.0,
+  "speed": 170.0,
+  "attackRange": 54.0,
+  "preferredRange": 0.0,
+  "attackInterval": 0.95,
+  "attackDamage": 10,
+  "retreatHpThreshold": 30,
+  "retreatDuration": 0.70
+}

@@ -1,0 +1,85 @@
+﻿{
+  "version": 6,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 21,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "mingw-release",
+      "displayName": "Qt6 MinGW Release",
+      "generator": "MinGW Makefiles",
+      "binaryDir": "${sourceDir}/build/mingw-release",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+        "CMAKE_PREFIX_PATH": "C:/Qt/6.11.0/mingw_64"
+      },
+      "environment": {
+        "QT_DIR": "C:/Qt/6.11.0/mingw_64",
+        "QTDIR": "C:/Qt/6.11.0/mingw_64",
+        "CMAKE_PREFIX_PATH": "C:/Qt/6.11.0/mingw_64",
+        "PATH": "C:/Qt/6.11.0/mingw_64/bin;C:/mingw64/bin;$penv{PATH}"
+      }
+    },
+    {
+      "name": "mingw-debug",
+      "displayName": "Qt6 MinGW Debug",
+      "generator": "MinGW Makefiles",
+      "binaryDir": "${sourceDir}/build/mingw-debug",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+        "CMAKE_PREFIX_PATH": "C:/Qt/6.11.0/mingw_64"
+      },
+      "environment": {
+        "QT_DIR": "C:/Qt/6.11.0/mingw_64",
+        "QTDIR": "C:/Qt/6.11.0/mingw_64",
+        "CMAKE_PREFIX_PATH": "C:/Qt/6.11.0/mingw_64",
+        "PATH": "C:/Qt/6.11.0/mingw_64/bin;C:/mingw64/bin;$penv{PATH}"
+      }
+    },
+    {
+      "name": "msvc-release-old",
+      "displayName": "Old MSVC Release (kept for backup)",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/msvc-release",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+        "CMAKE_PREFIX_PATH": "$env{QTDIR}"
+      }
+    },
+    {
+      "name": "msvc-debug-old",
+      "displayName": "Old MSVC Debug (kept for backup)",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/msvc-debug",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+        "CMAKE_PREFIX_PATH": "$env{QTDIR}"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "mingw-release",
+      "configurePreset": "mingw-release"
+    },
+    {
+      "name": "mingw-debug",
+      "configurePreset": "mingw-debug"
+    },
+    {
+      "name": "msvc-release-old",
+      "configurePreset": "msvc-release-old"
+    },
+    {
+      "name": "msvc-debug-old",
+      "configurePreset": "msvc-debug-old"
+    }
+  ],
+  "testPresets": []
+}
